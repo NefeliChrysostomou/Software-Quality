@@ -1,0 +1,29 @@
+name: Jabberpoint Tests
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  test:
+    runs-on: [windows-10, windows-11]
+    defaults:
+      run:
+        working-directory: ./app/
+
+    strategy:
+      matrix:
+        java-version: [8, 11, 17, 21]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: ${{ matrix.java-version }}
+      
+      - name: Test App Code
+        run: java ./main_test.java
+          
