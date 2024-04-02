@@ -1,3 +1,4 @@
+import java.awt.List;
 import java.util.ArrayList;
 
 
@@ -13,7 +14,7 @@ import java.util.ArrayList;
  * @version 1.6 2014/05/16 Sylvia Stuurman
  */
 
-public class Presentation {
+public class Presentation implements SlideComponent{
 	private String showTitle; // title of the presentation
 	private ArrayList<Slide> showList = null; // an ArrayList with Slides
 	private int currentSlideNumber = 0; // the slidenumber of the current Slide
@@ -78,11 +79,6 @@ public class Presentation {
 		setSlideNumber(-1);
 	}
 
-	// Add a slide to the presentation
-	public void append(Slide slide) {
-		showList.add(slide);
-	}
-
 	// Get a slide with a certain slidenumber
 	public Slide getSlide(int number) {
 		if (number < 0 || number >= getSize()){
@@ -98,5 +94,14 @@ public class Presentation {
 
 	public void exit(int n) {
 		System.exit(n);
+	}
+
+	@Override
+	public void append(SlideComponent slide) {
+			if (slide instanceof Slide) {
+					showList.add((Slide) slide);
+			} else {
+				throw new IllegalArgumentException("Only Slide objects can be added to the presentation.");
+			}
 	}
 }

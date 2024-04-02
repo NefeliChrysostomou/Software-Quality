@@ -13,7 +13,7 @@ import java.util.Vector;
  * @version 1.6 2014/05/16 Sylvia Stuurman
  */
 
-public class Slide {
+public class Slide implements SlideComponent {
 	public final static int WIDTH = 1200;
 	public final static int HEIGHT = 800;
 	protected String title; // title is saved separately
@@ -78,5 +78,11 @@ public class Slide {
 	// Give the scale for drawing
 	private float getScale(Rectangle area) {
 		return Math.min(((float)area.width) / ((float)WIDTH), ((float)area.height) / ((float)HEIGHT));
+	}
+
+	@Override
+	public void append(SlideComponent slide) {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Cannot append slide to leaf component");
 	}
 }

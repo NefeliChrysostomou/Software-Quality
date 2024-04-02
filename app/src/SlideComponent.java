@@ -1,3 +1,3 @@
 public interface SlideComponent {
-  void append();
+  void append(SlideComponent component);
 }
