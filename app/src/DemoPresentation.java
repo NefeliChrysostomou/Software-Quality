@@ -28,7 +28,7 @@ class DemoPresentation extends Accessor {
 		presentation.append(slide);
 
 		slide = new Slide();
-		slide.setTitle("Demonstration of levels and stijlen");
+		slide.setTitle("Demonstration of levels and styles");
 		slide.append(1, "Level 1");
 		slide.append(2, "Level 2");
 		slide.append(1, "Again level 1");
