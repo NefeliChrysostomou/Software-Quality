@@ -57,6 +57,10 @@ public class Style {
         this.fontSize = fontSize;
     }
 
+    public int getFontSize(){
+        return fontSize;
+    }
+
     public int getLeading() {
         return leading;
     }

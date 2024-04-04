@@ -53,8 +53,11 @@ public class Presentation implements SlideComponent {
     }
 
     public void nextSlide() {
-        if (currentSlideNumber < (showList.size() - 1)) {
+        if (currentSlideNumber < (showList.size()) - 1) {
             setSlideNumber(currentSlideNumber + 1);
+        }
+        else if(currentSlideNumber == (showList.size()) - 1){
+            setSlideNumber(currentSlideNumber);
         }
     }
 
