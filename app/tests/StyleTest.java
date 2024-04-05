@@ -1,6 +1,7 @@
-import org.junit.Before;
 import java.awt.Color;
 import java.awt.Font;
+
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.awt.*;
@@ -10,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class StyleTest {
     private StyleComponent concreteStyle;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         concreteStyle = new ConcreteStyle(Color.black, new Font("Arial", Font.PLAIN, 12), 12, 0, 10);
     }
@@ -66,9 +67,17 @@ public class StyleTest {
     @Test
     public void testFontStyleDecorator() {
         Font newFont = new Font("Times New Roman", Font.BOLD, 14);
-        StyleComponent fontStyleDecorated = new FontStyleDecorator(concreteStyle, newFont);
+
+        // Apply FontSizeStyleDecorator
+        StyleComponent fontSizeDecorated = new FontSizeStyleDecorator(concreteStyle, 14);
+        fontSizeDecorated.createStyle();
+
+        // Apply FontStyleDecorator
+        StyleComponent fontStyleDecorated = new FontStyleDecorator(fontSizeDecorated, newFont);
         fontStyleDecorated.createStyle();
-        Style style = ((ConcreteStyle) concreteStyle).getStyle();
+
+        // Assert
+        Style style = ((ConcreteStyle) concreteStyle).getStyle(); // Get the Style object from concreteStyle
         assertEquals(newFont, style.getFont(1.0f));
     }
 
