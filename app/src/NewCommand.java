@@ -7,7 +7,7 @@ public class NewCommand extends Command {
 
   @Override
   public String getName() {
-    return null;
+    return "New";
   }
 
   @Override
@@ -16,3 +16,5 @@ public class NewCommand extends Command {
     parent.repaint();
   }
 }
+
+

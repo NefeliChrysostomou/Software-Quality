@@ -20,7 +20,7 @@ public class JabberPoint {
 
     // Add the extra slide to the presentation
     Slide extraSlide = new Slide();
-    extraSlide.appendSlideItem(new TextItem(5, "").setStyle("This is an extra slide!"));
+    extraSlide.appendSlideItem(new TextItem(5, "").setStyle("This is an extra slide! Epilepsy warning regarding slide 5!!!"));
     presentation.append(extraSlide);
 
     // Load the presentation file

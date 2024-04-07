@@ -15,6 +15,7 @@ public class CommandTest {
     assertEquals("Exit", exitCommand.getName());
   }
 
+  //Doesn't run, stops but gives no error. very confused
   @Test
   public void testExecuteExitCommand() {
     Presentation presentation = new Presentation();
