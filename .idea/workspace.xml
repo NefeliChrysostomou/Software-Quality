@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c27800d-ec20-43b9-ae27-5c8fd9044f02" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/BitmapItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/BitmapItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/JabberPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/JabberPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/Presentation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Software-Quality/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Software-Quality/classpath.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6c27800d-ec20-43b9-ae27-5c8fd9044f02" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
