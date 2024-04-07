@@ -1,4 +1,3 @@
-
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyAdapter;
 
@@ -10,10 +9,12 @@ import java.awt.event.KeyAdapter;
  * @version 1.4 2007/07/16 Sylvia Stuurman
  * @version 1.5 2010/03/03 Sylvia Stuurman
  * @version 1.6 2014/05/16 Sylvia Stuurman
+ * @version 1.7 2024/04/07 Nefeli Chrysostomou and Marijn Veenstra
 */
 
+// Controls keyboard commands
 public class KeyController extends KeyAdapter {
-	private Presentation presentation; // Commands are given to the presentation
+	private Presentation presentation;
 
 	public KeyController(Presentation p) {
 		presentation = p;
@@ -21,20 +22,21 @@ public class KeyController extends KeyAdapter {
 
 	public void keyPressed(KeyEvent keyEvent) {
 		switch(keyEvent.getKeyCode()) {
-			case KeyEvent.VK_PAGE_DOWN:
+			case KeyEvent.VK_SPACE:
 			case KeyEvent.VK_RIGHT:
 			case KeyEvent.VK_ENTER:
 			case '+':
 				presentation.nextSlide();
 				break;
-			case KeyEvent.VK_PAGE_UP:
-			case KeyEvent.VK_UP:
+			case KeyEvent.VK_SHIFT:
+			case KeyEvent.VK_BACK_SPACE:
 			case KeyEvent.VK_LEFT:
 			case '-':
 				presentation.prevSlide();
 				break;
 			case 'q':
 			case 'Q':
+			case KeyEvent.VK_ESCAPE:
 				System.exit(0);
 				break; // Probably never reached!!
 			default:

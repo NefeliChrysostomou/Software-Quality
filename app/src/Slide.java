@@ -1,10 +1,9 @@
-
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.image.ImageObserver;
 import java.util.Vector;
 
-/** <p>A slide. This class has a drawing functionality.</p>
+/** <p> A slide. This class has a drawing functionality.</p>
  * @author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman
  * @version 1.1 2002/12/17 Gert Florijn
  * @version 1.2 2003/11/19 Sylvia Stuurman
@@ -12,6 +11,7 @@ import java.util.Vector;
  * @version 1.4 2007/07/16 Sylvia Stuurman
  * @version 1.5 2010/03/03 Sylvia Stuurman
  * @version 1.6 2014/05/16 Sylvia Stuurman
+ * @version 1.7 2024/04/07 Nefeli Chrysostomou and Marijn Veenstra
  */
 
 public class Slide implements SlideComponent {
@@ -83,7 +83,6 @@ public class Slide implements SlideComponent {
 
 	@Override
 	public void append(SlideComponent slide) {
-		// TODO Auto-generated method stub
 		throw new UnsupportedOperationException("Cannot append slide to leaf component");
 	}
 }

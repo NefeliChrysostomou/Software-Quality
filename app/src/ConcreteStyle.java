@@ -1,6 +1,7 @@
 import java.awt.Color;
 import java.awt.Font;
 
+// Creates style instances
 public class ConcreteStyle implements StyleComponent {
   private Style style;
 

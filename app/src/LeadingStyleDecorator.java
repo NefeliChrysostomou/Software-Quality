@@ -1,3 +1,4 @@
+// A decorator that adds space the the top of a style
 public class LeadingStyleDecorator extends StyleWrapper {
   private int newLeading;
 

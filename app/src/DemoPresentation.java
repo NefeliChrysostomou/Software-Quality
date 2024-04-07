@@ -6,8 +6,10 @@
  * @version 1.4 2007/07/16 Sylvia Stuurman
  * @version 1.5 2010/03/03 Sylvia Stuurman
  * @version 1.6 2014/05/16 Sylvia Stuurman
+ * @version 1.7 2024/04/07 Nefeli Chrysostomou and Marijn Veenstra
  */
 
+// Default presentation provided on start-up
 class DemoPresentation extends Accessor {
 
 	public void loadFile(Presentation presentation, String unusedFilename) {
@@ -22,9 +24,9 @@ class DemoPresentation extends Accessor {
 		slide.append(4, "Starting JabberPoint without a filename");
 		slide.append(4, "shows this presentation");
 		slide.append(1, "Navigate:");
-		slide.append(3, "Next slide: PgDn or Enter");
-		slide.append(3, "Previous slide: PgUp or up-arrow");
-		slide.append(3, "Quit: q or Q");
+		slide.append(3, "Next slide: right-arrow, Space or Enter");
+		slide.append(3, "Previous slide: left-arrow, Backspace or Shift");
+		slide.append(3, "Quit: Q or esc");
 		presentation.append(slide);
 
 		slide = new Slide();

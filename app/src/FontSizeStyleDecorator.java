@@ -1,3 +1,4 @@
+// A decorator that changes font size of a style
 public class FontSizeStyleDecorator extends StyleWrapper {
   private int newFontSize;
 

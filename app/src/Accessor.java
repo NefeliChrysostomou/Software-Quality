@@ -10,6 +10,7 @@ import java.io.IOException;
  * @version 1.4 2007/07/16 Sylvia Stuurman
  * @version 1.5 2010/03/03 Sylvia Stuurman
  * @version 1.6 2014/05/16 Sylvia Stuurman
+ * @version 1.7 2024/04/07 Nefeli Chrysostomou and Marijn Veenstra
  */
 
 public abstract class Accessor {
@@ -24,7 +25,5 @@ public abstract class Accessor {
 	}
 
 	abstract public void loadFile(Presentation p, String fn) throws IOException;
-
 	abstract public void saveFile(Presentation p, String fn) throws IOException;
-
 }

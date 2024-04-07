@@ -1,14 +1,10 @@
-
 import java.awt.Rectangle;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;
 import java.io.File;
-
 import javax.imageio.ImageIO;
-
 import java.io.IOException;
-
 
 /** <p>The class for a Bitmap item</p>
  * <p>Bitmap items have the responsibility to draw themselves.</p>
@@ -19,12 +15,12 @@ import java.io.IOException;
  * @version 1.4 2007/07/16 Sylvia Stuurman
  * @version 1.5 2010/03/03 Sylvia Stuurman
  * @version 1.6 2014/05/16 Sylvia Stuurman
+ * @version 1.7 2024/04/07 Nefeli Chrysostomou and Marijn Veenstra
 */
 
 public class BitmapItem extends SlideItem {
   private BufferedImage bufferedImage;
   private String imageName;
-  
   protected static final String FILE = "File ";
   protected static final String NOTFOUND = " not found";
 
@@ -63,7 +59,7 @@ public class BitmapItem extends SlideItem {
 		int width = x + (int) (myStyle.getIndent() * scale);
 		int height = y + (int) (myStyle.getLeading() * scale);
 		g.drawImage(bufferedImage, width, height,(int) (bufferedImage.getWidth(observer)*scale),
-                (int) (bufferedImage.getHeight(observer)*scale), observer);
+        (int) (bufferedImage.getHeight(observer)*scale), observer);
 	}
 
 	public String toString() {

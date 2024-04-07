@@ -1,5 +1,6 @@
 import java.awt.Font;
 
+// A decorator that changed font family of a style
 public class FontStyleDecorator extends StyleWrapper {
   private Font newFont;
 
