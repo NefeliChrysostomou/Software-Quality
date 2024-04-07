@@ -16,10 +16,33 @@ public class KeyController extends KeyAdapter {
 		keyBindings.put(keyCode, command);
 	}
 
+//	public void keyPressed(KeyEvent keyEvent) {
+//		Command command = keyBindings.get(keyEvent.getKeyCode());
+//		if (command != null) {
+//			command.execute();
+//		}
+//	}
 	public void keyPressed(KeyEvent keyEvent) {
-		Command command = keyBindings.get(keyEvent.getKeyCode());
-		if (command != null) {
-			command.execute();
+		switch(keyEvent.getKeyCode()) {
+			case KeyEvent.VK_SPACE:
+			case KeyEvent.VK_RIGHT:
+			case KeyEvent.VK_ENTER:
+			case '+':
+				presentation.nextSlide();
+				break;
+			case KeyEvent.VK_SHIFT:
+			case KeyEvent.VK_BACK_SPACE:
+			case KeyEvent.VK_LEFT:
+			case '-':
+				presentation.prevSlide();
+				break;
+			case 'q':
+			case 'Q':
+			case KeyEvent.VK_ESCAPE:
+				System.exit(0);
+				break; // Probably never reached!!
+			default:
+				break;
 		}
 	}
 }
