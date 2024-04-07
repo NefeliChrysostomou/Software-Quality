@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.IOException;
 
 /** The class for a Bitmap item */
+
 public class BitmapItem extends SlideItem {
   private ImageIcon imageIcon;
   private String imageName;

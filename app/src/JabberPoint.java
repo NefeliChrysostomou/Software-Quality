@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.awt.event.KeyEvent;
 
 // Main class
+
 public class JabberPoint {
   protected static final String IOERR = "IO Error: ";
   protected static final String JABERR = "Jabberpoint Error ";
