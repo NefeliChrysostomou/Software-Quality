@@ -55,8 +55,7 @@ public class Presentation implements SlideComponent {
   public void nextSlide() {
     if (currentSlideNumber < (showList.size()) - 1) {
       setSlideNumber(currentSlideNumber + 1);
-    }
-    else if(currentSlideNumber == (showList.size()) - 1){
+    } else if (currentSlideNumber == (showList.size()) - 1) {
       setSlideNumber(currentSlideNumber);
     }
   }
@@ -82,13 +81,13 @@ public class Presentation implements SlideComponent {
   }
 
   @Override
-    public void append(SlideComponent slide) {
-      if (slide instanceof Slide) {
-        showList.add((Slide) slide);
-      } else {
-        throw new IllegalArgumentException("Only Slide objects can be added to the presentation.");
-      }
+  public void append(SlideComponent slide) {
+    if (slide instanceof Slide) {
+      showList.add((Slide) slide);
+    } else {
+      throw new IllegalArgumentException("Only Slide objects can be added to the presentation.");
     }
+  }
 
   public void addStyle(String name, Style style) {
     styles.put(name, style);
