@@ -6,7 +6,6 @@ import java.awt.Rectangle;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 
-
 /** <p>SlideViewerComponent is a graphical component that can show slides.</p>
  * @author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman
  * @version 1.1 2002/12/17 Gert Florijn
@@ -15,6 +14,7 @@ import javax.swing.JFrame;
  * @version 1.4 2007/07/16 Sylvia Stuurman
  * @version 1.5 2010/03/03 Sylvia Stuurman
  * @version 1.6 2014/05/16 Sylvia Stuurman
+ * @version 1.7 2024/04/07 Nefeli Chrysostomou and Marijn Veenstra
  */
 
 public class SlideViewerComponent extends JComponent {
@@ -23,9 +23,7 @@ public class SlideViewerComponent extends JComponent {
 	private Font labelFont = null; // font for labels
 	private Presentation presentation = null; // the presentation
 	private JFrame frame = null;
-	
-	private static final long serialVersionUID = 227L;
-	
+
 	private static final Color BGCOLOR = Color.white;
 	private static final Color COLOR = Color.black;
 	private static final String FONTNAME = "Dialog";
@@ -66,7 +64,7 @@ public class SlideViewerComponent extends JComponent {
 		g.setFont(labelFont);
 		g.setColor(COLOR);
 		g.drawString("Slide " + (1 + presentation.getSlideNumber()) + " of " +
-                 presentation.getSize(), XPOS, YPOS);
+        presentation.getSize(), XPOS, YPOS);
 		Rectangle area = new Rectangle(0, YPOS, getWidth(), (getHeight() - YPOS));
 		slide.draw(g, area, this);
 	}
