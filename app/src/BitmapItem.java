@@ -1,10 +1,17 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.ImageObserver;
-import java.io.File;
-import java.io.IOException;
 
-/** The class for a Bitmap item */
+/** The class for a Bitmap item
+ *@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman
+ * @version 1.1 2002/12/17 Gert Florijn
+ * @version 1.2 2003/11/19 Sylvia Stuurman
+ * @version 1.3 2004/08/17 Sylvia Stuurman
+ * @version 1.4 2007/07/16 Sylvia Stuurman
+ * @version 1.5 2010/03/03 Sylvia Stuurman
+ * @version 1.6 2014/05/16 Sylvia Stuurman
+ * @version 1.7 2024/04/07 Nefeli Chrysostomou and Marijn Veenstra
+ */
 
 public class BitmapItem extends SlideItem {
   private ImageIcon imageIcon;
@@ -57,7 +64,6 @@ public class BitmapItem extends SlideItem {
     }
   }
 
-  // Override toString method
   public String toString() {
     return "BitmapItem[" + getLevel() + "," + imageName + "]";
   }

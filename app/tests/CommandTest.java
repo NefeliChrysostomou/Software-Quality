@@ -1,9 +1,5 @@
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
-
 import java.awt.*;
 
 public class CommandTest {
@@ -15,7 +11,7 @@ public class CommandTest {
     assertEquals("Exit", exitCommand.getName());
   }
 
-  //Doesn't run, stops but gives no error. very confused
+  //Doesn't run, stops but gives no error
   @Test
   public void testExecuteExitCommand() {
     Presentation presentation = new Presentation();
@@ -23,7 +19,7 @@ public class CommandTest {
     // Ensure that calling execute exits the application without throwing exceptions
     assertDoesNotThrow(() -> exitCommand.execute());
   }
-//REMOVE THIS AHHHH COMMENT
+
   @Test
   public void testOpenCommand() {
     Presentation presentation = new Presentation();

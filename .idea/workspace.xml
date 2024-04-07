@@ -5,7 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c27800d-ec20-43b9-ae27-5c8fd9044f02" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/BitmapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/BitmapItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/ColorStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/ColorStyleDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/ConcreteStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/ConcreteStyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/ExitCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/FontSizeStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/FontSizeStyleDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/FontStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/FontStyleDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/IndentStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/IndentStyleDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/JabberPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/JabberPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/KeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/KeyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/LeadingStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/LeadingStyleDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/NewCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/NewCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/NextSlideCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/NextSlideCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/OpenCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/OpenCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Presentation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/PrevSlideCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/PrevSlideCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/SaveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/SaveCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/SlideComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/SlideComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/SlideItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/SlideItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Style.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/StyleComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/StyleComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/StyleWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/StyleWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/TextItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/TextItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/XMLAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/XMLAccessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/tests/CommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/CommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/PresentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/PresentationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/StyleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/StyleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +92,25 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CommandTest">
+    <configuration name="JabberPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JabberPoint" />
+      <module name="Software-Quality" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Software-Quality" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="CommandTest" />
+        <pattern testClass="PresentationTest" />
+        <pattern testClass="StyleTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Software-Quality" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,41 +120,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandTest.testExecuteExitCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PresentationTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Software-Quality" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommandTest" />
-      <option name="METHOD_NAME" value="testExecuteExitCommand" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="PresentationTest" />
+        <pattern testClass="StyleTest" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandTest.testOpenCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StyleTest.testFontStyleDecorator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Software-Quality" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommandTest" />
-      <option name="METHOD_NAME" value="testOpenCommand" />
+      <option name="MAIN_CLASS_NAME" value="StyleTest" />
+      <option name="METHOD_NAME" value="testFontStyleDecorator" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommandTest.testSaveCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Software-Quality" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommandTest" />
-      <option name="METHOD_NAME" value="testSaveCommand" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PresentationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Software-Quality" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PresentationTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CommandTest" />
-        <item itemvalue="JUnit.CommandTest.testSaveCommand" />
-        <item itemvalue="JUnit.CommandTest.testOpenCommand" />
-        <item itemvalue="JUnit.CommandTest.testExecuteExitCommand" />
-        <item itemvalue="JUnit.PresentationTest" />
+        <item itemvalue="JUnit.PresentationTest and 1 more" />
+        <item itemvalue="JUnit.CommandTest and 2 more" />
+        <item itemvalue="Application.JabberPoint" />
+        <item itemvalue="JUnit.StyleTest.testFontStyleDecorator" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +161,7 @@
       <updated>1712489843856</updated>
       <workItem from="1712489845091" duration="9956000" />
       <workItem from="1712507734784" duration="1936000" />
+      <workItem from="1712513488414" duration="3001000" />
     </task>
     <servers />
   </component>
