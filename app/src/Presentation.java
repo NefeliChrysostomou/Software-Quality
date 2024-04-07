@@ -2,6 +2,16 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+/**@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman
+ * @version 1.1 2002/12/17 Gert Florijn
+ * @version 1.2 2003/11/19 Sylvia Stuurman
+ * @version 1.3 2004/08/17 Sylvia Stuurman
+ * @version 1.4 2007/07/16 Sylvia Stuurman
+ * @version 1.5 2010/03/03 Sylvia Stuurman
+ * @version 1.6 2014/05/16 Sylvia Stuurman
+ * @version 1.7 2024/04/07 Nefeli Chrysostomou and Marijn Veenstra
+ */
+
 public class Presentation implements SlideComponent {
   private String showTitle;
   private ArrayList<Slide> showList = null;
@@ -55,8 +65,7 @@ public class Presentation implements SlideComponent {
   public void nextSlide() {
     if (currentSlideNumber < (showList.size()) - 1) {
       setSlideNumber(currentSlideNumber + 1);
-    }
-    else if(currentSlideNumber == (showList.size()) - 1){
+    } else if (currentSlideNumber == (showList.size()) - 1) {
       setSlideNumber(currentSlideNumber);
     }
   }
@@ -82,13 +91,13 @@ public class Presentation implements SlideComponent {
   }
 
   @Override
-    public void append(SlideComponent slide) {
-      if (slide instanceof Slide) {
-        showList.add((Slide) slide);
-      } else {
-        throw new IllegalArgumentException("Only Slide objects can be added to the presentation.");
-      }
+  public void append(SlideComponent slide) {
+    if (slide instanceof Slide) {
+      showList.add((Slide) slide);
+    } else {
+      throw new IllegalArgumentException("Only Slide objects can be added to the presentation.");
     }
+  }
 
   public void addStyle(String name, Style style) {
     styles.put(name, style);
