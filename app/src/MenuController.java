@@ -48,11 +48,20 @@ public class MenuController extends MenuBar {
 			}
 		});
 		fileMenu.add(exitItem);
-
 		MenuItem nextItem = new MenuItem("Next", new MenuShortcut('N'));
+		nextItem.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				presentation.nextSlide();
+			}
+		});
 		viewMenu.add(nextItem);
 
 		MenuItem prevItem = new MenuItem("Prev", new MenuShortcut('P'));
+		prevItem.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				presentation.prevSlide();
+			}
+		});
 		viewMenu.add(prevItem);
 
 		MenuItem gotoItem = new MenuItem("Go to", new MenuShortcut('G'));

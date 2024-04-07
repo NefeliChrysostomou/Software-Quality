@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c27800d-ec20-43b9-ae27-5c8fd9044f02" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/KeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/KeyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/KeyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/KeyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/MenuController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712489843856</updated>
-      <workItem from="1712489845091" duration="5044000" />
+      <workItem from="1712489845091" duration="5276000" />
     </task>
     <servers />
   </component>
