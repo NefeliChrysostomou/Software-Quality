@@ -77,8 +77,8 @@ public class Style {
   //Default styles
   private static void createStyles() {
     styles.put(DEFAULT_STYLE_KEY, new Style(0, Color.black, 12, 10));
-    styles.put(0, new Style(0, Color.red, 48, 200));   // style for item-level 0
-    styles.put(1, new Style(20, Color.blue, 40, 10)); // style for item-level 1
+    styles.put(0, new Style(0, Color.red, 48, 20));    // style for item-level 0
+    styles.put(1, new Style(20, Color.blue, 40, 10));  // style for item-level 1
     styles.put(2, new Style(50, Color.black, 36, 10)); // style for item-level 2
     styles.put(3, new Style(70, Color.black, 30, 10)); // style for item-level 3
     styles.put(4, new Style(90, Color.black, 24, 10)); // style for item-level 4

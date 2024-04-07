@@ -25,7 +25,7 @@ public class Slide implements SlideComponent {
 	}
 
 	// Add a slide item
-	public void append(SlideItem anItem) {
+	public void appendSlideItem(SlideItem anItem) {
 		items.addElement(anItem);
 	}
 
@@ -40,8 +40,8 @@ public class Slide implements SlideComponent {
 	}
 
 	// Create TextItem of String, and add the TextItem 
-	public void append(int level, String message) {
-		append(new TextItem(level, message));
+	public void appendTextItem(int level, String message) {
+		appendSlideItem(new TextItem(level, message));
 	}
 
 	// give the  SlideItem
