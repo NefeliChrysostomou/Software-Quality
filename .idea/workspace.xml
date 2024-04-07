@@ -5,43 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c27800d-ec20-43b9-ae27-5c8fd9044f02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/CommandTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/JabberPoint.gif" beforeDir="false" afterPath="$PROJECT_DIR$/JabberPoint.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/jabberpoint.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/jabberpoint.dtd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/logo-woordmerk_ou.gif" beforeDir="false" afterPath="$PROJECT_DIR$/logo-woordmerk_ou.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serclogo_fc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/serclogo_fc.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/AboutBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/AboutBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Accessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Accessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/BitmapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/BitmapItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/ColorStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/ColorStyleDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/ConcreteStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/ConcreteStyle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/DemoPresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/DemoPresentation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/ExitCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/FontSizeStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/FontSizeStyleDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/FontStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/FontStyleDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/IndentStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/IndentStyleDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/JabberPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/JabberPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/KeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/KeyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/LeadingStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/LeadingStyleDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/MenuController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/NewCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/NewCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/NextSlideCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/NextSlideCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/OpenCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/OpenCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Presentation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/PrevSlideCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/PrevSlideCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/SaveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/SaveCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Slide.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Slide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/SlideComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/SlideComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/SlideItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/SlideItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/SlideViewerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/SlideViewerComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/SlideViewerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/SlideViewerFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Style.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/StyleComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/StyleComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/StyleWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/StyleWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/TextItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/TextItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/XMLAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/XMLAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dump.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dump.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/BitmapItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/BitmapItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/DemoPresentation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/DemoPresentation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/ExitCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/ExitCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/KeyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/KeyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Software-Quality/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Software-Quality/classpath.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/CommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/CommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/PresentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/PresentationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/StyleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/StyleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,26 +59,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "jdk.selected.JAVA_MODULE": "18",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -99,7 +91,26 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CommandTest.testExecuteExitCommand">
+  <component name="RunManager" selected="JUnit.CommandTest">
+    <configuration name="JabberPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JabberPoint" />
+      <module name="Software-Quality" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Software-Quality" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="CommandTest" />
+        <pattern testClass="PresentationTest" />
+        <pattern testClass="StyleTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Software-Quality" />
       <option name="PACKAGE_NAME" value="" />
@@ -109,41 +120,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandTest.testExecuteExitCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PresentationTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Software-Quality" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommandTest" />
-      <option name="METHOD_NAME" value="testExecuteExitCommand" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="PresentationTest" />
+        <pattern testClass="StyleTest" />
+      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandTest.testExecutePrevSlideCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StyleTest.testFontStyleDecorator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Software-Quality" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommandTest" />
-      <option name="METHOD_NAME" value="testExecutePrevSlideCommand" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommandTest.testNewCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Software-Quality" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommandTest" />
-      <option name="METHOD_NAME" value="testNewCommand" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommandTest.testSaveCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Software-Quality" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommandTest" />
-      <option name="METHOD_NAME" value="testSaveCommand" />
+      <option name="MAIN_CLASS_NAME" value="StyleTest" />
+      <option name="METHOD_NAME" value="testFontStyleDecorator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CommandTest.testExecuteExitCommand" />
-        <item itemvalue="JUnit.CommandTest.testExecutePrevSlideCommand" />
-        <item itemvalue="JUnit.CommandTest.testNewCommand" />
-        <item itemvalue="JUnit.CommandTest.testSaveCommand" />
         <item itemvalue="JUnit.CommandTest" />
+        <item itemvalue="JUnit.PresentationTest and 1 more" />
+        <item itemvalue="JUnit.CommandTest and 2 more" />
+        <item itemvalue="Application.JabberPoint" />
+        <item itemvalue="JUnit.StyleTest.testFontStyleDecorator" />
       </list>
     </recent_temporary>
   </component>
@@ -168,25 +160,12 @@
       <option name="presentableId" value="Default" />
       <updated>1712489843856</updated>
       <workItem from="1712489845091" duration="9956000" />
+      <workItem from="1712507734784" duration="1936000" />
+      <workItem from="1712513488414" duration="3001000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/app/tests/CommandTest.java</url>
-          <line>11</line>
-          <properties class="CommandTest" method="testExitCommand">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

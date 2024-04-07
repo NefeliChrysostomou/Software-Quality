@@ -3,8 +3,17 @@ import java.awt.*;
 import java.io.IOException;
 import java.awt.event.KeyEvent;
 
-// Main class
+/**@author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman
+ * @version 1.1 2002/12/17 Gert Florijn
+ * @version 1.2 2003/11/19 Sylvia Stuurman
+ * @version 1.3 2004/08/17 Sylvia Stuurman
+ * @version 1.4 2007/07/16 Sylvia Stuurman
+ * @version 1.5 2010/03/03 Sylvia Stuurman
+ * @version 1.6 2014/05/16 Sylvia Stuurman
+ * @version 1.7 2024/04/07 Nefeli Chrysostomou and Marijn Veenstra
+ */
 
+// The Main Class
 public class JabberPoint {
   protected static final String IOERR = "IO Error: ";
   protected static final String JABERR = "Jabberpoint Error ";
@@ -20,7 +29,7 @@ public class JabberPoint {
 
     // Add the extra slide to the presentation
     Slide extraSlide = new Slide();
-    extraSlide.appendSlideItem(new TextItem(5, "").setStyle("This is an extra slide!"));
+    extraSlide.appendSlideItem(new TextItem(5, "").setStyle("This is an extra slide! Epilepsy warning regarding slide 5!!!")); // Put the text that you want to show in the setStyle()
     presentation.append(extraSlide);
 
     // Load the presentation file
