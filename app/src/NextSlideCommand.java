@@ -9,7 +9,7 @@
  */
 
 public class NextSlideCommand extends Command {
-  private Presentation presentation;
+  private final Presentation presentation;
 
   public NextSlideCommand(Presentation presentation) {
     this.presentation = presentation;

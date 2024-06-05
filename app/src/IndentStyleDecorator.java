@@ -10,7 +10,7 @@
 
 // A decorator that applies additional indentation to a style
 public class IndentStyleDecorator extends StyleWrapper {
-  private int extraIndent;
+  private final int extraIndent;
   
   public IndentStyleDecorator(StyleComponent wrappee, int extraIndent) {
       super(wrappee);

@@ -15,7 +15,7 @@ import java.util.Map;
 
 // The base style class
 public class Style {
-  private static Map<Integer, Style> styles = new HashMap<>();
+  private static final Map<Integer, Style> styles = new HashMap<>();
   private static final int DEFAULT_STYLE_KEY = 0;
   private static final String FONTNAME = "Helvetica";
 

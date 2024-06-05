@@ -12,7 +12,7 @@ import java.awt.Color;
 
 // A decorator that applies color to a style
 public class ColorStyleDecorator extends StyleWrapper {
-  private Color newColor;
+  private final Color newColor;
 
   public ColorStyleDecorator(StyleComponent wrappee, Color newColor) {
     super(wrappee);

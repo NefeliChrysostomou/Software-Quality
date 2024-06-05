@@ -10,7 +10,7 @@
 
 // A decorator that adds space at the top of a style
 public class LeadingStyleDecorator extends StyleWrapper {
-  private int newLeading;
+  private final int newLeading;
 
   public LeadingStyleDecorator(StyleComponent wrappee, int newLeading) {
       super(wrappee);

@@ -15,7 +15,7 @@ import java.awt.image.ImageObserver;
 
 public class BitmapItem extends SlideItem {
   private ImageIcon imageIcon;
-  private String imageName;
+  private final String imageName;
   protected static final String FILE = "File ";
   protected static final String NOTFOUND = " not found";
 

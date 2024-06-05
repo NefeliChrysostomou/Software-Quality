@@ -16,8 +16,8 @@ public class Presentation implements SlideComponent {
   private String showTitle;
   private ArrayList<Slide> showList = null;
   private int currentSlideNumber = 0;
-  private SlideViewerComponent slideViewComponent = null;
-  private Map<String, Style> styles = new HashMap<>();
+  private SlideViewerComponent slideViewComponent;
+  private final Map<String, Style> styles = new HashMap<>();
 
   public Presentation() {
     slideViewComponent = null;
@@ -71,7 +71,7 @@ public class Presentation implements SlideComponent {
   }
 
   void clear() {
-    showList = new ArrayList<Slide>();
+    showList = new ArrayList<>();
     setSlideNumber(-1);
   }
 

@@ -9,7 +9,7 @@
  */
 
 public class ExitCommand extends Command {
-  private Presentation presentation;
+  private final Presentation presentation;
 
   public ExitCommand(Presentation presentation) {
     this.presentation = presentation;
