@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c27800d-ec20-43b9-ae27-5c8fd9044f02" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/AboutBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/AboutBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Accessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Accessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/JabberPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/JabberPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$7.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/classpath.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Software-Quality/CommandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Software-Quality/CommandTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Software-Quality/PresentationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Software-Quality/PresentationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Software-Quality/StyleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Software-Quality/StyleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Software-Quality/classpath.index" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

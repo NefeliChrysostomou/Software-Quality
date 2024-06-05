@@ -2,7 +2,7 @@ import java.io.IOException;
 
 /**
  * <p>* An Accessor makes it possible to write or read data for a presentation</p>
- * <p>Non-abstract subclasses must implent the load and the save method.</p>
+ * <p>Non-abstract subclasses must implement the load and the save method.</p>
  * @author Ian F. Darwin, ian@darwinsys.com, Gert Florijn, Sylvia Stuurman
  * @version 1.1 2002/12/17 Gert Florijn
  * @version 1.2 2003/11/19 Sylvia Stuurman
