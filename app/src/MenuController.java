@@ -90,7 +90,10 @@ public class MenuController extends MenuBar {
       public void actionPerformed(ActionEvent actionEvent) {
         String pageNumberStr = JOptionPane.showInputDialog((Object)"Page number?");
         int pageNumber = Integer.parseInt(pageNumberStr);
-        presentation.setSlideNumber(pageNumber - 1);
+        //Makes sure you can't go to a slide that does not exist
+        if(pageNumber < presentation.getSize()) {
+          presentation.setSlideNumber(pageNumber - 1);
+        }
       }
     });
     viewMenu.add(gotoItem);

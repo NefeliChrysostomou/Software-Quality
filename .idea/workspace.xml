@@ -5,35 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c27800d-ec20-43b9-ae27-5c8fd9044f02" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/BitmapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/BitmapItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/ColorStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/ColorStyleDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/ConcreteStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/ConcreteStyle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/ExitCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/FontSizeStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/FontSizeStyleDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/FontStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/FontStyleDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/IndentStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/IndentStyleDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/JabberPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/JabberPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/KeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/KeyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/LeadingStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/LeadingStyleDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/NewCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/NewCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/NextSlideCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/NextSlideCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/OpenCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/OpenCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Presentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/PrevSlideCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/PrevSlideCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/SaveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/SaveCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/SlideComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/SlideComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/SlideItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/SlideItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Style.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/StyleComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/StyleComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/StyleWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/StyleWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/TextItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/TextItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/XMLAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/XMLAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/CommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/CommandTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/PresentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/PresentationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/StyleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/StyleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/MenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/classpath.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Software-Quality/CommandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Software-Quality/CommandTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Software-Quality/PresentationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Software-Quality/PresentationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Software-Quality/StyleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Software-Quality/StyleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Software-Quality/classpath.index" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,26 +42,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.JabberPoint.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.CommandTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "18",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -91,7 +76,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CommandTest">
+  <component name="RunManager" selected="Application.JabberPoint">
     <configuration name="JabberPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JabberPoint" />
       <module name="Software-Quality" />
@@ -143,10 +128,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JabberPoint" />
         <item itemvalue="JUnit.CommandTest" />
         <item itemvalue="JUnit.PresentationTest and 1 more" />
         <item itemvalue="JUnit.CommandTest and 2 more" />
-        <item itemvalue="Application.JabberPoint" />
         <item itemvalue="JUnit.StyleTest.testFontStyleDecorator" />
       </list>
     </recent_temporary>
