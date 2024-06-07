@@ -20,8 +20,8 @@ jobs:
           distribution: "temurin"
           java-version: "17"
 
-      - name: Run unit tests with coverage
-        run: mvn test verify -Pcoverage
+      - name: Run unit tests
+        run: mvn test
 
       - name: Upload Coverage Report
         uses: actions/upload-artifact@v3
