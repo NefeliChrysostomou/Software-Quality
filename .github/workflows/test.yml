@@ -19,7 +19,6 @@ jobs:
         with:
           distribution: "temurin"
           java-version: "17"
-          cache: mindex
 
       - name: Run unit tests with coverage
         run: mvn test verify -Pcoverage
