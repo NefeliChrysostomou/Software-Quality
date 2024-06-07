@@ -1,11 +1,16 @@
-package Decorator;
 import java.awt.Color;
 import java.awt.Font;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-
-
+import Decorator.ColorStyleDecorator;
+import Decorator.ConcreteStyle;
+import Decorator.FontSizeStyleDecorator;
+import Decorator.FontStyleDecorator;
+import Decorator.IndentStyleDecorator;
+import Decorator.Style;
+import Decorator.StyleComponent;
+import Decorator.LeadingStyleDecorator;
 
 public class StyleTest {
   private StyleComponent concreteStyle;
