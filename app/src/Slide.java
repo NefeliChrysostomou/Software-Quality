@@ -44,11 +44,6 @@ public class Slide implements SlideComponent {
     appendSlideItem(new TextItem(level, message));
   }
 
-  // give the  SlideItem
-  public SlideItem getSlideItem(int number) {
-    return items.elementAt(number);
-  }
-
   // give all SlideItems in a Vector
   public Vector<SlideItem> getSlideItems() {
     return items;
