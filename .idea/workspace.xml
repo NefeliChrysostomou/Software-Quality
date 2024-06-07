@@ -6,20 +6,97 @@
   <component name="ChangeListManager">
     <list default="true" id="6c27800d-ec20-43b9-ae27-5c8fd9044f02" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Slide.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Slide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Style.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Slide.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/Slide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software-Quality.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Software-Quality.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/AboutBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/Accessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/BitmapItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/DemoPresentation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/JabberPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/KeyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/MenuController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/MenuController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/MenuController$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/MenuController$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/MenuController$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/MenuController$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/MenuController$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/MenuController$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/MenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/Presentation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/Slide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/SlideItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/SlideViewerComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/SlideViewerFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/SlideViewerFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/Style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/TextItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/XMLAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/AboutBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Accessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/BitmapItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/ColorStyleDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/ConcreteStyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/DemoPresentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/ExitCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/FontSizeStyleDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/FontStyleDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/IndentStyleDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/JabberPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/KeyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/LeadingStyleDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/MenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/NewCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/NextSlideCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/OpenCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Presentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/PrevSlideCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Receiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/SaveCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Slide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/SlideComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/SlideItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/SlideViewerComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/SlideViewerFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Style.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/StyleComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/StyleWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/TextItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/XMLAccessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/CommandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/PresentationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/StyleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Accessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/BitmapItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/ColorStyleDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/ConcreteStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/DemoPresentation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/ExitCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/FontSizeStyleDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/FontStyleDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/IndentStyleDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/JabberPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/KeyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/LeadingStyleDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/NewCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/NextSlideCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/OpenCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/PrevSlideCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Receiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/SaveCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Slide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/SlideItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/SlideViewerComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/SlideViewerFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/SlideViewerFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/StyleComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/StyleWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/TextItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/XMLAccessor.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +145,13 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "18",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/marij/Desktop/jabberGabrilonAlex",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -88,10 +167,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JabberPoint">
+  <component name="RunManager" selected="Application.Jabberpoint.JabberPoint">
     <configuration name="JabberPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JabberPoint" />
       <module name="Software-Quality" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jabberpoint.JabberPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Jabberpoint.JabberPoint" />
+      <module name="Software-Quality" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Jabberpoint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,23 +220,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StyleTest.testFontStyleDecorator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Software-Quality" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StyleTest" />
-      <option name="METHOD_NAME" value="testFontStyleDecorator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Jabberpoint.JabberPoint" />
         <item itemvalue="Application.JabberPoint" />
         <item itemvalue="JUnit.CommandTest" />
         <item itemvalue="JUnit.PresentationTest and 1 more" />
         <item itemvalue="JUnit.CommandTest and 2 more" />
-        <item itemvalue="JUnit.StyleTest.testFontStyleDecorator" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +249,7 @@
       <workItem from="1712489845091" duration="9956000" />
       <workItem from="1712507734784" duration="1936000" />
       <workItem from="1712513488414" duration="3001000" />
-      <workItem from="1717751759032" duration="16253000" />
+      <workItem from="1717751759032" duration="18796000" />
     </task>
     <servers />
   </component>
