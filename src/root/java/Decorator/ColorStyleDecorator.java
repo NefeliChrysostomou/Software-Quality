@@ -16,15 +16,20 @@ import java.awt.Color;
 public class ColorStyleDecorator extends StyleWrapper {
   private final Color COLOR;
 
-  public ColorStyleDecorator(StyleComponent wrappee, Color COLOR) {
+  public ColorStyleDecorator(StyleComponent wrappee, Color newColor) {
     super(wrappee);
-    this.COLOR = COLOR;
+    this.COLOR = newColor;
   }
 
   @Override
   public void createStyle() {
     super.createStyle();
-    Style baseStyle = ((ConcreteStyle) wrappee).getStyle();
+    Style baseStyle = wrappee.getStyle();
     baseStyle.setColor(COLOR);
+  }
+
+  @Override
+  public Style getStyle() {
+    return wrappee.getStyle();
   }
 }

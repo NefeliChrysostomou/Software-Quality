@@ -12,17 +12,22 @@ package Decorator;
 
 // A decorator that changes font size of a style
 public class FontSizeStyleDecorator extends StyleWrapper {
-  private final int FONTSIZE;
+  private final int SIZE;
 
-  public FontSizeStyleDecorator(StyleComponent wrappee, int newFontSize) {
+  public FontSizeStyleDecorator(StyleComponent wrappee, int newSize) {
     super(wrappee);
-    this.FONTSIZE = newFontSize;
+    this.SIZE = newSize;
   }
 
   @Override
   public void createStyle() {
     super.createStyle();
-    Style baseStyle = ((ConcreteStyle) wrappee).getStyle();
-    baseStyle.setFontSize(FONTSIZE);
+    Style baseStyle = wrappee.getStyle();
+    baseStyle.setFontSize(SIZE);
+  }
+
+  @Override
+  public Style getStyle() {
+    return wrappee.getStyle();
   }
 }

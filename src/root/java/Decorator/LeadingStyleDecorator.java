@@ -12,17 +12,22 @@ package Decorator;
 
 // A decorator that adds space at the top of a style
 public class LeadingStyleDecorator extends StyleWrapper {
-  private final int newLeading;
+  private final int LEADING;
 
   public LeadingStyleDecorator(StyleComponent wrappee, int newLeading) {
-      super(wrappee);
-      this.newLeading = newLeading;
+    super(wrappee);
+    this.LEADING = newLeading;
   }
 
   @Override
   public void createStyle() {
-      super.createStyle();
-      Style baseStyle = ((ConcreteStyle) wrappee).getStyle();
-      baseStyle.setLeading(newLeading);
+    super.createStyle();
+    Style baseStyle = wrappee.getStyle();
+    baseStyle.setLeading(LEADING);
+  }
+
+  @Override
+  public Style getStyle() {
+    return wrappee.getStyle();
   }
 }

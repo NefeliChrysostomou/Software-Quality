@@ -83,7 +83,7 @@ public class StyleTest {
     fontStyleDecorated.createStyle();
 
     // Assert
-    Style style = ((ConcreteStyle) concreteStyle).getStyle(); // Get the Style object from concreteStyle
+    Style style = fontStyleDecorated.getStyle(); // Get the Style object from latest decorator
     assertEquals(newFont, style.getFont(1.0f));
   }
 

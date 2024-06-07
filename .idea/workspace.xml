@@ -6,10 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="6c27800d-ec20-43b9-ae27-5c8fd9044f02" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/java/Decorator/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/java/Decorator/Style.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/java/Decorator/ColorStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/java/Decorator/ColorStyleDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/java/Decorator/FontSizeStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/java/Decorator/FontSizeStyleDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/java/Decorator/FontStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/java/Decorator/FontStyleDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/java/Decorator/IndentStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/java/Decorator/IndentStyleDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/java/Decorator/LeadingStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/java/Decorator/LeadingStyleDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/java/Decorator/StyleComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/java/Decorator/StyleComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/tests/StyleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/StyleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Decorator/Style.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Decorator/Style.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StyleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StyleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StyleTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +61,7 @@
     "JUnit.PresentationTest.testNextSlide.executor": "Run",
     "JUnit.StyleTest.executor": "Run",
     "JUnit.StyleTest.testConcreteStyleFont.executor": "Run",
+    "JUnit.StyleTest.testFontStyleDecorator.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -144,8 +149,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StyleTest.testFontStyleDecorator" />
-        <item itemvalue="JUnit.StyleTest.testConcreteStyleFont" />
         <item itemvalue="JUnit.StyleTest" />
+        <item itemvalue="JUnit.StyleTest.testConcreteStyleFont" />
         <item itemvalue="JUnit.PresentationTest" />
         <item itemvalue="JUnit.CommandTest.testNewCommand" />
       </list>
@@ -170,7 +175,7 @@
       <workItem from="1712489845091" duration="9956000" />
       <workItem from="1712507734784" duration="1936000" />
       <workItem from="1712513488414" duration="3001000" />
-      <workItem from="1717751759032" duration="22029000" />
+      <workItem from="1717751759032" duration="23234000" />
     </task>
     <servers />
   </component>
@@ -180,14 +185,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/tests/StyleTest.java</url>
-          <line>73</line>
-          <properties class="StyleTest" method="testFontStyleDecorator">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="10" />
+          <line>14</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

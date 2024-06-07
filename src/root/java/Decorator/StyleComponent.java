@@ -12,4 +12,5 @@ package Decorator;
 
 public interface StyleComponent {
   void createStyle();
+  Style getStyle();
 }

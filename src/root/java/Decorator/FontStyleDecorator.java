@@ -24,7 +24,13 @@ public class FontStyleDecorator extends StyleWrapper {
   @Override
   public void createStyle() {
     super.createStyle();
-    Style baseStyle = ((ConcreteStyle) wrappee).getStyle();
+    Style baseStyle = wrappee.getStyle();
     baseStyle.setFont(FONT);
   }
+
+  @Override
+  public Style getStyle() {
+    return wrappee.getStyle();
+  }
+
 }
