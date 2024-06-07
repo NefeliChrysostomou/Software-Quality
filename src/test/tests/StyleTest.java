@@ -28,8 +28,12 @@ public class StyleTest {
 
   @Test
   public void testConcreteStyleFont() {
-    Style style = ((ConcreteStyle) concreteStyle).getStyle();
-    assertEquals(new Font("Arial", Font.PLAIN, 12), style.getFont(1.0f));
+    ConcreteStyle concreteStyle = new ConcreteStyle(Color.BLACK, new Font("Serif", Font.PLAIN, 22), 14, 2, 2);
+    Font expectedFont = new Font("Arial", Font.PLAIN, 14);
+    FontStyleDecorator fontStyleDecorator = new FontStyleDecorator(concreteStyle, expectedFont);
+    fontStyleDecorator.createStyle();
+    Style style = concreteStyle.getStyle();
+    assertEquals(expectedFont, style.getFont(1.0f));
   }
 
   @Test

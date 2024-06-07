@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c27800d-ec20-43b9-ae27-5c8fd9044f02" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/tests/CommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/CommandTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CommandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CommandTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/java/Decorator/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/java/Decorator/Style.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tests/StyleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/StyleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Decorator/Style.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Decorator/Style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StyleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StyleTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +56,7 @@
     "JUnit.PresentationTest.executor": "Run",
     "JUnit.PresentationTest.testNextSlide.executor": "Run",
     "JUnit.StyleTest.executor": "Run",
+    "JUnit.StyleTest.testConcreteStyleFont.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -88,36 +92,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CommandTest.testNewCommand">
-    <configuration name="CommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Software-Quality" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommandTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommandTest.testExecuteExitCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Software-Quality" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommandTest" />
-      <option name="METHOD_NAME" value="testExecuteExitCommand" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommandTest.testExecutePrevSlideCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Software-Quality" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommandTest" />
-      <option name="METHOD_NAME" value="testExecutePrevSlideCommand" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StyleTest.testFontStyleDecorator">
     <configuration name="CommandTest.testNewCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Software-Quality" />
       <option name="PACKAGE_NAME" value="" />
@@ -128,11 +103,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandTest.testSaveCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PresentationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Software-Quality" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CommandTest" />
-      <option name="METHOD_NAME" value="testSaveCommand" />
+      <option name="MAIN_CLASS_NAME" value="PresentationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StyleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Software-Quality" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StyleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StyleTest.testConcreteStyleFont" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Software-Quality" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StyleTest" />
+      <option name="METHOD_NAME" value="testConcreteStyleFont" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StyleTest.testFontStyleDecorator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Software-Quality" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StyleTest" />
+      <option name="METHOD_NAME" value="testFontStyleDecorator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StyleTest.testFontStyleDecorator" />
+        <item itemvalue="JUnit.StyleTest.testConcreteStyleFont" />
+        <item itemvalue="JUnit.StyleTest" />
+        <item itemvalue="JUnit.PresentationTest" />
         <item itemvalue="JUnit.CommandTest.testNewCommand" />
-        <item itemvalue="JUnit.CommandTest.testExecuteExitCommand" />
-        <item itemvalue="JUnit.CommandTest.testSaveCommand" />
-        <item itemvalue="JUnit.CommandTest.testExecutePrevSlideCommand" />
-        <item itemvalue="JUnit.CommandTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,11 +170,26 @@
       <workItem from="1712489845091" duration="9956000" />
       <workItem from="1712507734784" duration="1936000" />
       <workItem from="1712513488414" duration="3001000" />
-      <workItem from="1717751759032" duration="21540000" />
+      <workItem from="1717751759032" duration="22029000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/tests/StyleTest.java</url>
+          <line>73</line>
+          <properties class="StyleTest" method="testFontStyleDecorator">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

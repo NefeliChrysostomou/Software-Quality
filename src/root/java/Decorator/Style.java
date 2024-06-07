@@ -58,9 +58,7 @@ public class Style {
     this.color = color;
   }
 
-  public Font getFont(float scale) {
-    return font.deriveFont(fontSize * scale);
-  }
+  public Font getFont(float scale) {return font.deriveFont(fontSize * scale);}
 
   public void setFont(Font font) {
     this.font = font;
