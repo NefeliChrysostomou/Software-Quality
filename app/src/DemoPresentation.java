@@ -9,6 +9,11 @@
  * @version 1.7 2024/04/07 Nefeli Chrysostomou and Marijn Veenstra
  */
 
+/** This class does not follow the Single Responsibility Principle
+ * as the presentation created in it is simply for testing purposes
+ * and does not reflect the functionality of the rest of the application
+ */
+
 // Default presentation provided on start-up
 class DemoPresentation extends Accessor {
 

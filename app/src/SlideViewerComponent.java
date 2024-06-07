@@ -20,9 +20,9 @@ import javax.swing.JFrame;
 public class SlideViewerComponent extends JComponent {
 
   private Slide slide; // current slide
-  private final Font labelFont; // font for labels
+  private final Font LABELFONT; // font for labels
   private Presentation presentation; // the presentation
-  private final JFrame frame;
+  private final JFrame FRAME;
 
   private static final Color BGCOLOR = Color.white;
   private static final Color COLOR = Color.black;
@@ -35,8 +35,8 @@ public class SlideViewerComponent extends JComponent {
   public SlideViewerComponent(Presentation pres, JFrame frame) {
     setBackground(BGCOLOR);
     presentation = pres;
-    labelFont = new Font(FONTNAME, FONTSTYLE, FONTHEIGHT);
-    this.frame = frame;
+    LABELFONT = new Font(FONTNAME, FONTSTYLE, FONTHEIGHT);
+    this.FRAME = frame;
   }
 
   public Dimension getPreferredSize() {
@@ -51,19 +51,19 @@ public class SlideViewerComponent extends JComponent {
     this.presentation = presentation;
     this.slide = data;
     repaint();
-    frame.setTitle(presentation.getTitle());
+    FRAME.setTitle(presentation.getTitle());
   }
 
   // draw the slide
   public void paintComponent(Graphics g) {
     g.setColor(BGCOLOR);
     g.fillRect(0, 0, getSize().width, getSize().height);
-    if (presentation.getSlideNumber() < 0 || slide == null) {
+    if (presentation.getCurrentSlideNumber() < 0 || slide == null) {
       return;
     }
-    g.setFont(labelFont);
+    g.setFont(LABELFONT);
     g.setColor(COLOR);
-    g.drawString("Slide " + (1 + presentation.getSlideNumber()) + " of " +
+    g.drawString("Slide " + (1 + presentation.getCurrentSlideNumber()) + " of " +
         presentation.getSize(), XPOS, YPOS);
     Rectangle area = new Rectangle(0, YPOS, getWidth(), (getHeight() - YPOS));
     slide.draw(g, area, this);

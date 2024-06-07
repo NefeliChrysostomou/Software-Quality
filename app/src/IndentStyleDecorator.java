@@ -10,17 +10,17 @@
 
 // A decorator that applies additional indentation to a style
 public class IndentStyleDecorator extends StyleWrapper {
-  private final int extraIndent;
+  private final int EXTRAINDENT;
   
   public IndentStyleDecorator(StyleComponent wrappee, int extraIndent) {
       super(wrappee);
-      this.extraIndent = extraIndent;
+      this.EXTRAINDENT = extraIndent;
   }
 
   @Override
   public void createStyle() {
       super.createStyle();
       Style baseStyle = ((ConcreteStyle) wrappee).getStyle();
-      baseStyle.setIndent(baseStyle.getIndent() + extraIndent);
+      baseStyle.setIndent(baseStyle.getIndent() + EXTRAINDENT);
   }
 }

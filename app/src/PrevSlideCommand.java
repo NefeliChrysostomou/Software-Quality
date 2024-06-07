@@ -9,10 +9,10 @@
  */
 
 public class PrevSlideCommand extends Command {
-  private final Presentation presentation;
+  private final Presentation PRESENTATION;
 
-  public PrevSlideCommand(Presentation presentation) {
-    this.presentation = presentation;
+  public PrevSlideCommand(Presentation PRESENTATION) {
+    this.PRESENTATION = PRESENTATION;
   }
 
   @Override
@@ -22,6 +22,8 @@ public class PrevSlideCommand extends Command {
 
   @Override
   public void execute() {
-    presentation.prevSlide();
+    if (PRESENTATION.getCurrentSlideNumber() > 0) {
+      PRESENTATION.setSlideNumber(PRESENTATION.getCurrentSlideNumber() - 1);
+    }
   }
 }

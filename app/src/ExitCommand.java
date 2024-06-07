@@ -9,10 +9,10 @@
  */
 
 public class ExitCommand extends Command {
-  private final Presentation presentation;
+  private final Presentation PRESENTATION;
 
   public ExitCommand(Presentation presentation) {
-    this.presentation = presentation;
+    this.PRESENTATION = presentation;
   }
 
   @Override
@@ -22,6 +22,6 @@ public class ExitCommand extends Command {
 
   @Override
   public void execute() {
-    presentation.exit(0);
+    PRESENTATION.exit(0);
   }
 }

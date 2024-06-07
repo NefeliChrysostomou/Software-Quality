@@ -13,14 +13,14 @@ import java.awt.Font;
 
 // Creates style instances
 public class ConcreteStyle implements StyleComponent {
-  private final Style style;
+  private final Style STYLE;
 
   public ConcreteStyle(Color color, Font font, int fontSize, int indent, int leading) {
-    style = new Style(indent, color, fontSize, leading);
+    STYLE = new Style(indent, color, fontSize, leading);
   }
 
   public Style getStyle() {
-    return style;
+    return STYLE;
   }
 
   @Override

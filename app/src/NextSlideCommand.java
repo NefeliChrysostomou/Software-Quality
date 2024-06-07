@@ -9,10 +9,10 @@
  */
 
 public class NextSlideCommand extends Command {
-  private final Presentation presentation;
+  private final Presentation PRESENTATION;
 
-  public NextSlideCommand(Presentation presentation) {
-    this.presentation = presentation;
+  public NextSlideCommand(Presentation PRESENTATION) {
+    this.PRESENTATION = PRESENTATION;
   }
 
   @Override
@@ -22,6 +22,10 @@ public class NextSlideCommand extends Command {
 
   @Override
   public void execute() {
-    presentation.nextSlide();
+      if (PRESENTATION.getCurrentSlideNumber() < PRESENTATION.getSize() - 1) {
+        PRESENTATION.setSlideNumber(PRESENTATION.getCurrentSlideNumber() + 1);
+      } else if (PRESENTATION.getCurrentSlideNumber() == PRESENTATION.getSize() - 1) {
+        PRESENTATION.setSlideNumber(PRESENTATION.getCurrentSlideNumber());
+      }
   }
 }

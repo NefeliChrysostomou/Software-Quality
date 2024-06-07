@@ -37,15 +37,17 @@ public class MenuController extends MenuBar {
     MenuItem openItem = new MenuItem("Open", new MenuShortcut('O'));
     openItem.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        handleOpen();
+        OpenCommand openCommand = new OpenCommand(parent, presentation);
+        openCommand.execute();
       }
     });
     fileMenu.add(openItem);
 
-    MenuItem newItem = new MenuItem("New", new MenuShortcut('N'));
+    MenuItem newItem = new MenuItem("New", new MenuShortcut('M'));
     newItem.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        handleNew();
+        NewCommand newCommand = new NewCommand(parent, presentation);
+        newCommand.execute();
       }
     });
     fileMenu.add(newItem);
@@ -53,7 +55,8 @@ public class MenuController extends MenuBar {
     MenuItem saveItem = new MenuItem("Save", new MenuShortcut('S'));
     saveItem.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        handleSave();
+        SaveCommand saveCommand = new SaveCommand(parent, presentation);
+        saveCommand.execute();
       }
     });
     fileMenu.add(saveItem);
@@ -63,7 +66,8 @@ public class MenuController extends MenuBar {
     MenuItem exitItem = new MenuItem("Exit", new MenuShortcut('X'));
     exitItem.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        handleExit();
+        ExitCommand exitCommand = new ExitCommand(presentation);
+        exitCommand.execute();
       }
     });
     fileMenu.add(exitItem);
@@ -72,7 +76,8 @@ public class MenuController extends MenuBar {
     MenuItem nextItem = new MenuItem("Next", new MenuShortcut('N'));
     nextItem.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        presentation.nextSlide();
+        NextSlideCommand nextSlide = new NextSlideCommand(presentation);
+        nextSlide.execute();
       }
     });
     viewMenu.add(nextItem);
@@ -80,7 +85,8 @@ public class MenuController extends MenuBar {
     MenuItem prevItem = new MenuItem("Prev", new MenuShortcut('P'));
     prevItem.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent e) {
-        presentation.prevSlide();
+        PrevSlideCommand prevSlide = new PrevSlideCommand(presentation);
+        prevSlide.execute();
       }
     });
     viewMenu.add(prevItem);
@@ -91,7 +97,7 @@ public class MenuController extends MenuBar {
         String pageNumberStr = JOptionPane.showInputDialog((Object)"Page number?");
         int pageNumber = Integer.parseInt(pageNumberStr);
         //Makes sure you can't go to a slide that does not exist
-        if(pageNumber < presentation.getSize()) {
+        if(0 < pageNumber && pageNumber <= presentation.getSize()) {
           presentation.setSlideNumber(pageNumber - 1);
         }
       }
@@ -149,39 +155,5 @@ public class MenuController extends MenuBar {
       }
     }
     return null;
-  }
-
-  //Handles the "Open" action by loading a presentation from a file
-  private void handleOpen() {
-    presentation.clear();
-    Accessor xmlAccessor = new XMLAccessor();
-    try {
-      xmlAccessor.loadFile(presentation, "test.xml");
-      presentation.setSlideNumber(0);
-    } catch (IOException exc) {
-      JOptionPane.showMessageDialog(parent, "IO Exception: " + exc, "Load Error", JOptionPane.ERROR_MESSAGE);
-    }
-    parent.repaint();
-  }
-
-  // Handles the "New" action by clearing the current presentation
-  private void handleNew() {
-    presentation.clear();
-    parent.repaint();
-  }
-
-   //Handles the "Save" action by saving the presentation to a file
-  private void handleSave() {
-    Accessor xmlAccessor = new XMLAccessor();
-    try {
-      xmlAccessor.saveFile(presentation, "dump.xml");
-    } catch (IOException exc) {
-      JOptionPane.showMessageDialog(parent, "IO Exception: " + exc, "Save Error", JOptionPane.ERROR_MESSAGE);
-    }
-  }
-
-   //Handles the "Exit" action by exiting the application
-  private void handleExit() {
-    presentation.exit(0);
   }
 }

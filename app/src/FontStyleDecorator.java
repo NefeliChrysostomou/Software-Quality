@@ -12,17 +12,17 @@ import java.awt.Font;
 
 // A decorator that changes the font family of a style
 public class FontStyleDecorator extends StyleWrapper {
-  private final Font newFont;
+  private final Font FONT;
 
   public FontStyleDecorator(StyleComponent wrappee, Font newFont) {
     super(wrappee);
-    this.newFont = newFont;
+    this.FONT = newFont;
   }
 
   @Override
   public void createStyle() {
     super.createStyle();
     Style baseStyle = ((ConcreteStyle) wrappee).getStyle();
-    baseStyle.setFont(newFont);
+    baseStyle.setFont(FONT);
   }
 }

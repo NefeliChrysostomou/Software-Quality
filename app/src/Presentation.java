@@ -12,12 +12,12 @@ import java.util.Map;
  * @version 1.7 2024/04/07 Nefeli Chrysostomou and Marijn Veenstra
  */
 
-public class Presentation implements SlideComponent {
+public class Presentation extends Receiver implements SlideComponent {
   private String showTitle;
   private ArrayList<Slide> showList = null;
   private int currentSlideNumber = 0;
   private SlideViewerComponent slideViewComponent;
-  private final Map<String, Style> styles = new HashMap<>();
+  private final Map<String, Style> STYLES = new HashMap<>();
 
   public Presentation() {
     slideViewComponent = null;
@@ -45,7 +45,7 @@ public class Presentation implements SlideComponent {
     this.slideViewComponent = slideViewerComponent;
   }
 
-  public int getSlideNumber() {
+  public int getCurrentSlideNumber() {
     return currentSlideNumber;
   }
 
@@ -100,10 +100,15 @@ public class Presentation implements SlideComponent {
   }
 
   public void addStyle(String name, Style style) {
-    styles.put(name, style);
+    STYLES.put(name, style);
   }
 
   public Style getStyle(String name) {
-    return styles.get(name);
+    return STYLES.get(name);
+  }
+
+  @Override
+  public void executeKeyCommand(Command command) {
+    command.execute();
   }
 }

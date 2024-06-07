@@ -25,9 +25,6 @@ import org.w3c.dom.NodeList;
 
 public class XMLAccessor extends Accessor {
 
-  // Default API to use.
-  protected static final String DEFAULT_API_TO_USE = "dom";
-
   // names of xml tags or attributes
   protected static final String SHOWTITLE = "showtitle";
   protected static final String SLIDETITLE = "title";
@@ -49,7 +46,7 @@ public class XMLAccessor extends Accessor {
   }
 
   public void loadFile(Presentation presentation, String filename) throws IOException {
-    int slideNumber, itemNumber, max = 0, maxItems = 0;
+    int slideNumber, itemNumber, max, maxItems;
     try {
       DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
       Document document = builder.parse(new File(filename)); // Create a JDOM document
@@ -73,7 +70,7 @@ public class XMLAccessor extends Accessor {
       }
     }
     catch (IOException iox) {
-      System.err.println(iox.toString());
+      System.err.println();
     }
     catch (SAXException sax) {
       System.err.println(sax.getMessage());
@@ -123,7 +120,7 @@ public class XMLAccessor extends Accessor {
       out.println("<title>" + slide.getTitle() + "</title>");
       Vector<SlideItem> slideItems = slide.getSlideItems();
       for (int itemNumber = 0; itemNumber<slideItems.size(); itemNumber++) {
-        SlideItem slideItem = (SlideItem) slideItems.elementAt(itemNumber);
+        SlideItem slideItem = slideItems.elementAt(itemNumber);
         out.print("<item kind=");
         if (slideItem instanceof TextItem) {
           out.print("\"text\" level=\"" + slideItem.getLevel() + "\">");

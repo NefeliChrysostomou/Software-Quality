@@ -15,29 +15,24 @@ import java.awt.image.ImageObserver;
 
 public class BitmapItem extends SlideItem {
   private ImageIcon imageIcon;
-  private final String imageName;
+  private final String IMAGENAME;
   protected static final String FILE = "File ";
   protected static final String NOTFOUND = " not found";
 
   // Constructor
   public BitmapItem(int level, String name) {
     super(level);
-    imageName = name;
+    IMAGENAME = name;
     try {
-      imageIcon = new ImageIcon(imageName);
+      imageIcon = new ImageIcon(IMAGENAME);
     } catch (Exception e) {
-      System.err.println(FILE + imageName + NOTFOUND);
+      System.err.println(FILE + IMAGENAME + NOTFOUND);
     }
-  }
-
-  // An empty bitmap-item
-  public BitmapItem() {
-    this(0, null);
   }
 
   // Get the filename of the image
   public String getName() {
-    return imageName;
+    return IMAGENAME;
   }
 
   // Get the bounding box of the image
@@ -65,6 +60,6 @@ public class BitmapItem extends SlideItem {
   }
 
   public String toString() {
-    return "BitmapItem[" + getLevel() + "," + imageName + "]";
+    return "BitmapItem[" + getLevel() + "," + IMAGENAME + "]";
   }
 }
