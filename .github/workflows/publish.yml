@@ -1,0 +1,32 @@
+name: Publish package
+
+on:
+  pull_request:
+    branches: [ "main" ]
+    types: [ closed ]
+
+jobs:
+  if_merged:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK and Build Application
+        uses: actions/setup-java@v3
+        with:
+          java-version: 19
+          distribution: 'temurin'
+        run: |
+          VERSION=$(date +'%Y%m%d%H%M%S')
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          mvn package -Drevision=$VERSION
+
+      - name: Release
+        uses: softprops/action-gh-new-release@v1
+        with:
+          files: "target/*.jar"
+          name: $VERSION
+          tag_name: $VERSION
