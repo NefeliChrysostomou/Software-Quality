@@ -5,49 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c27800d-ec20-43b9-ae27-5c8fd9044f02" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software-Quality.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Software-Quality.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dump.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dump.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Accessors/Accessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Accessors/DemoPresentation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Accessors/XMLAccessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Decorator/ColorStyleDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Decorator/ConcreteStyle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Decorator/FontSizeStyleDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Decorator/FontStyleDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Decorator/IndentStyleDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Decorator/LeadingStyleDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Decorator/Style.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Decorator/StyleComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Decorator/StyleWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Jabberpoint/JabberPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/BitmapItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/Command/AboutBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/Command/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/Command/ExitCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/Command/KeyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/Command/MenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/Command/NewCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/Command/NextSlideCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/Command/OpenCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/Command/PrevSlideCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/Command/Receiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/Command/SaveCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/Composite/Slide.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/Composite/SlideComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/Presentation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/SlideItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/SlideViewerComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/SlideViewerFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/SlideViewerFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation/TextItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Software-Quality/Decorator/CommandTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/CommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/CommandTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/PresentationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/PresentationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/StyleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/StyleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tests/CommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/CommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CommandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CommandTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,26 +167,11 @@
       <workItem from="1712489845091" duration="9956000" />
       <workItem from="1712507734784" duration="1936000" />
       <workItem from="1712513488414" duration="3001000" />
-      <workItem from="1717751759032" duration="21234000" />
+      <workItem from="1717751759032" duration="21540000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/tests/CommandTest.java</url>
-          <line>89</line>
-          <properties class="CommandTest" method="testNewCommand">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

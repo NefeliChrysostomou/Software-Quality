@@ -84,7 +84,7 @@ public class CommandTest {
     Presentation presentation = new Presentation();
     Frame parent = new Frame();
     Command newCommand = new NewCommand(parent, presentation);
-    assertEquals(null, newCommand.getName());
+    assertEquals("New", newCommand.getName());
   }
 
   @Test
