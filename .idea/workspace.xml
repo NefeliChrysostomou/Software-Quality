@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6c27800d-ec20-43b9-ae27-5c8fd9044f02" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/java/Decorator/ColorStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/java/Decorator/ColorStyleDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/java/Decorator/FontSizeStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/java/Decorator/FontSizeStyleDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/java/Decorator/FontStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/java/Decorator/FontStyleDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/java/Decorator/IndentStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/java/Decorator/IndentStyleDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/java/Decorator/LeadingStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/java/Decorator/LeadingStyleDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/java/Decorator/StyleComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/java/Decorator/StyleComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/tests/StyleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/StyleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StyleTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,13 +89,25 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StyleTest.testFontStyleDecorator">
-    <configuration name="CommandTest.testNewCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.JabberPoint">
+    <configuration name="JabberPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Jabberpoint.JabberPoint" />
+      <module name="Software-Quality" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Jabberpoint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Software-Quality" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CommandTest" />
-      <option name="METHOD_NAME" value="testNewCommand" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,16 +130,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StyleTest.testConcreteStyleFont" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Software-Quality" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StyleTest" />
-      <option name="METHOD_NAME" value="testConcreteStyleFont" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StyleTest.testFontStyleDecorator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Software-Quality" />
       <option name="PACKAGE_NAME" value="" />
@@ -148,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StyleTest.testFontStyleDecorator" />
-        <item itemvalue="JUnit.StyleTest" />
-        <item itemvalue="JUnit.StyleTest.testConcreteStyleFont" />
+        <item itemvalue="Application.JabberPoint" />
+        <item itemvalue="JUnit.CommandTest" />
         <item itemvalue="JUnit.PresentationTest" />
-        <item itemvalue="JUnit.CommandTest.testNewCommand" />
+        <item itemvalue="JUnit.StyleTest" />
+        <item itemvalue="JUnit.StyleTest.testFontStyleDecorator" />
       </list>
     </recent_temporary>
   </component>
@@ -175,22 +169,11 @@
       <workItem from="1712489845091" duration="9956000" />
       <workItem from="1712507734784" duration="1936000" />
       <workItem from="1712513488414" duration="3001000" />
-      <workItem from="1717751759032" duration="23234000" />
+      <workItem from="1717751759032" duration="25594000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/tests/StyleTest.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
