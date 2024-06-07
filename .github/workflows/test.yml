@@ -1,0 +1,31 @@
+name: Test
+
+on:
+  push:
+    branches: ["testing"]
+  pull_request:
+    branches: ["testing"]
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: "17"
+          cache: mindex
+
+      - name: Run unit tests with coverage
+        run: mvn test verify -Pcoverage
+
+      - name: Upload Coverage Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: coverage-report
+          path: target/site/jacoco/index.html

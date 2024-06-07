@@ -5,67 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c27800d-ec20-43b9-ae27-5c8fd9044f02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/Receiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/BitmapItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/BitmapItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/ColorStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/ColorStyleDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/ConcreteStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/ConcreteStyle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/DemoPresentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/DemoPresentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/ExitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/ExitCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/FontSizeStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/FontSizeStyleDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/FontStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/FontStyleDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/IndentStyleDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/IndentStyleDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/KeyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/KeyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/NextSlideCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/NextSlideCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Presentation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/PrevSlideCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/PrevSlideCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/SlideItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/SlideItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/SlideViewerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/SlideViewerComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Style.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/TextItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/TextItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/XMLAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/XMLAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dump.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dump.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Accessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/BitmapItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/BitmapItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/ColorStyleDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/ColorStyleDecorator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/ConcreteStyle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/DemoPresentation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/ExitCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/FontSizeStyleDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/FontStyleDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/IndentStyleDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/JabberPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/KeyController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/LeadingStyleDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/MenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/NewCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/NextSlideCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/OpenCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Presentation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/PrevSlideCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/SaveCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Slide.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/SlideItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/SlideItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/SlideViewerComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/SlideViewerFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/SlideViewerFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/Style.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/StyleComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/StyleComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/StyleWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Software-Quality/StyleWrapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/TextItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Software-Quality/XMLAccessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,8 +41,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.JabberPoint.executor": "Run",
+    "Application.Jabberpoint.JabberPoint.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.CommandTest (1).executor": "Run",
     "JUnit.CommandTest.executor": "Run",
+    "JUnit.CommandTest.testExecuteExitCommand.executor": "Run",
+    "JUnit.CommandTest.testExecutePrevSlideCommand.executor": "Run",
+    "JUnit.CommandTest.testNewCommand.executor": "Run",
+    "JUnit.CommandTest.testSaveCommand.executor": "Run",
+    "JUnit.PresentationTest.executor": "Run",
+    "JUnit.PresentationTest.testNextSlide.executor": "Run",
+    "JUnit.StyleTest.executor": "Run",
+    "JUnit.StyleTest.testConcreteStyleFont.executor": "Run",
+    "JUnit.StyleTest.testFontStyleDecorator.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -114,11 +65,13 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "18",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/marij/Desktop/jabberGabrilonAlex",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -127,6 +80,8 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Year 2 Period 4\Resit software queality d\resit Software Quality\Software-Quality\src\test\tests" />
+      <recent name="C:\Year 2 Period 4\Resit software queality d\resit Software Quality\Software-Quality\src\test" />
       <recent name="C:\Software Quality\week 8\Software-Quality" />
       <recent name="C:\Software Quality\week 8\Software-Quality\app\tests" />
     </key>
@@ -136,20 +91,14 @@
   </component>
   <component name="RunManager" selected="Application.JabberPoint">
     <configuration name="JabberPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JabberPoint" />
+      <option name="MAIN_CLASS_NAME" value="Jabberpoint.JabberPoint" />
       <module name="Software-Quality" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommandTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Software-Quality" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="CommandTest" />
-        <pattern testClass="PresentationTest" />
-        <pattern testClass="StyleTest" />
-      </patterns>
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Jabberpoint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,13 +112,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PresentationTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PresentationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Software-Quality" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="PresentationTest" />
-        <pattern testClass="StyleTest" />
-      </patterns>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PresentationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StyleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Software-Quality" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StyleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,8 +144,8 @@
       <list>
         <item itemvalue="Application.JabberPoint" />
         <item itemvalue="JUnit.CommandTest" />
-        <item itemvalue="JUnit.PresentationTest and 1 more" />
-        <item itemvalue="JUnit.CommandTest and 2 more" />
+        <item itemvalue="JUnit.PresentationTest" />
+        <item itemvalue="JUnit.StyleTest" />
         <item itemvalue="JUnit.StyleTest.testFontStyleDecorator" />
       </list>
     </recent_temporary>
@@ -213,7 +169,7 @@
       <workItem from="1712489845091" duration="9956000" />
       <workItem from="1712507734784" duration="1936000" />
       <workItem from="1712513488414" duration="3001000" />
-      <workItem from="1717751759032" duration="15041000" />
+      <workItem from="1717751759032" duration="25594000" />
     </task>
     <servers />
   </component>
