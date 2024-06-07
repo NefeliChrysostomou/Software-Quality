@@ -29,8 +29,8 @@ jobs:
           mvn package -Drevision=$VERSION
 
       - name: Release
-        uses: softprops/action-gh-new-release@v1
+        uses: softprops/action-gh-release@v2
         with:
-          files: "target/*.jar"
+          files: "target/**.jar"
           name: ${{ env.VERSION }}
           tag_name: ${{ env.VERSION }}
